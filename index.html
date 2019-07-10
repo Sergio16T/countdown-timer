@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Count down Timer </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1> Count down to date!</h1> 
+        </header>
+        
+        <div class= "input-target-date"> 
+        <!-- <input id="event-name" type = "text" name ="event-name" placeholder="Enter Event Name"> 
+            <input id ="time" type ="time" name = "event-time" >-->
+            <input type= "date" id ="target-date" class ="target-date" name = "target-date" value ="" onchange="calcTime(this.id)"> 
+        </div>
+
+       <!--  <div class= "button">
+            <button id = "start-button" type="button" onclick=""> Start count down</button>
+        </div> -->
+     
+        <div class= "count-down-time">
+            <span id = "months"> 0</span> : 
+            <span id= "days">0</span> :
+            <span id= "hours">0</span> :
+            <span id= "minutes">0</span> :
+            <span id= "seconds">0</span>
+        </div>
+        <script src="app2.js"></script>  
+    </body>
+</html>
